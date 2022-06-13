@@ -27,4 +27,4 @@ COPY --from=build /helidon/target/libs ./libs
 
 CMD ["java", "-jar", "helidon-user-login-poc-79.jar"]
 
-EXPOSE 8080
+# EXPOSE 8179
