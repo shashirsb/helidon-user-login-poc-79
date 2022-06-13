@@ -27,7 +27,7 @@
         <version>2.3.0</version>
         <relativePath>../../../applications/mp/pom.xml</relativePath>
     </parent>
-    <artifactId>helidon-mp-user-login-poc-79</artifactId>
+    <artifactId>helidon-user-login-poc-79</artifactId>
     <name>Helidon User Login POC</name>
 
     <description>
