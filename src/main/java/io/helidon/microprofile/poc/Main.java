@@ -44,7 +44,7 @@ public class Main {
                 .port(0)
                 .build();
 
-       // server.start();
+                server.start();
         
         /*Tracer tracer = new ApmTracer.Builder("Helidon_MP_USER_LOGIN_POC", "UserLogin")            
                 .          
