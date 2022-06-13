@@ -33,6 +33,14 @@ import javax.ws.rs.core.Response;
 import io.helidon.common.http.SetCookie;
 import io.helidon.microprofile.cors.CrossOrigin;
 
+import org.eclipse.microprofile.openapi.annotations.enums.SchemaType;
+import org.eclipse.microprofile.openapi.annotations.media.Content;
+import org.eclipse.microprofile.openapi.annotations.media.Schema;
+import org.eclipse.microprofile.openapi.annotations.parameters.RequestBody;
+import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
+import org.eclipse.microprofile.openapi.annotations.responses.APIResponses;
+
+
 @Path("/user")
 @ApplicationScoped
 public class UserLogin {

@@ -34,9 +34,9 @@
         Microprofile example with explicit bootstrapping (Server.create(Application.class).start())
     </description>
 
-    <properties>
+    <!-- <properties>
         <mainClass>io.helidon.microprofile.poc.Main</mainClass>
-    </properties>
+    </properties> -->
 
     <dependencies>
         <dependency>
