@@ -15,7 +15,7 @@
 #
 server:
   port: 8179
-  host: localhost
+  host: 0.0.0.0
   static.classpath.location: /public
   static.classpath.welcome: login.html
   
