@@ -1,0 +1,169 @@
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX> Determining MBean Server: 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX>   USE_JMX=[true] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX>   WAIT_FOR_MBEAN_SERVER=[false] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX>   JMX_INIT_TIMEOUT=[30000]ms 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX>   MBEAN_SERVER_CLASSNAME=[null] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX> JMX MBeanServer is determined [com.sun.jmx.mbeanserver.JmxMBeanServer] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [DataQueue_Flush_Check] added with delay of [100 milliseconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup> Agent build properties: 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   build time=[2022-03-29T21:43:42Z] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   build host=[be9ca0a93921] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   build user=[root] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   build commit id=[712ddb14] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   build branch=[master] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   apm version=[1.5.2118] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [StatusManager_StatusReport] added with fixed rate of [60 seconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [MetricCollector_WebLogic] added with fixed rate of [60000 milliseconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Span> Metric [WebLogic] collection scheduled 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [MetricCollector_Platform] added with fixed rate of [60000 milliseconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Span> Metric [Platform] collection scheduled 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [MetricCollector_Tracer] added with fixed rate of [60000 milliseconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Span> Metric [Tracer] collection scheduled 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Resource> ResourceManager is starting 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Resource> ResourceManager is running 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Resource> ResourceCollector is starting 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [ResourceCollector_Discovery] added with delay of [60 seconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [ResourceCollector_Daily] added with delay of [86400 seconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [ResourceCollector_Renew] added with delay of [1200000 milliseconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Resource> ResourceCollector is running 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Sampler> Initializing sampling config 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Sampler> Loading sampling config file 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Sampler> No sampling config file or no [null] service config found in sampling config file 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Sampler> No sampling config file or rule properties specified 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Sampler> Effective sampling rule: No sampling config 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Config> The propagation type of the Oracle APM Tracer is set to: B3 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup> Tracer successfully initialized 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JFR> JFR not initialized. JFRController jar file is missing. Please check your pom.xml file or lib/agent folder for apm-java-agent-jfr11*.jar 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <Config> Effective agent properties - Resource updated
+  com.oracle.apm.agent.data.upload.file=stdout
+  com.oracle.apm.agent.oci.collector.service="helidon-mp-user-login-poc"
+  com.oracle.apm.agent.resource.apm.version=1.5.2118
+  com.oracle.apm.agent.resource.appserver=true
+  com.oracle.apm.agent.resource.appserver.display.port=NoPort
+  com.oracle.apm.agent.resource.appserver.id=7059334a4aae38768d0b9a45e1275ac1
+  com.oracle.apm.agent.resource.appserver.ports=NoPort
+  com.oracle.apm.agent.resource.appserver.type=helidon
+  com.oracle.apm.agent.resource.display.name=RRANIPER-X30W-J_7059334a4aae38768d0b9a45e1275ac1
+  com.oracle.apm.agent.resource.host.address=192.168.0.105
+  com.oracle.apm.agent.resource.host.addresses=192.168.0.105
+  com.oracle.apm.agent.resource.host.names=RRANIPER-X30W-J,RRANIPER-X30W-J.in.oracle.com
+  com.oracle.apm.agent.resource.hostname=RRANIPER-X30W-J
+  com.oracle.apm.agent.resource.hostname.canonical=RRANIPER-X30W-J.in.oracle.com
+  com.oracle.apm.agent.resource.os.available.processors=8
+  com.oracle.apm.agent.resource.os.name=Windows 10
+  com.oracle.apm.agent.resource.os.version=10.0
+  com.oracle.apm.agent.resource.process.id=2724
+  com.oracle.apm.agent.resource.service.id=04e9a602fa6190e6ae0460a0655a8fb3
+  com.oracle.apm.agent.resource.service.name="helidon-mp-user-login-poc"
+  com.oracle.apm.agent.resource.vm.name=Java(TM) SE Runtime Environment
+  com.oracle.apm.agent.resource.vm.vendor=Oracle Corporation
+  com.oracle.apm.agent.resource.vm.version=11.0.13
+  com.oracle.apm.agent.resource.working.directory=C:\Users\rraniper\Documents\helidonpoc\helidon-user-login-poc-79
+ 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <Config> Effective agent properties - Added runtime property
+  com.oracle.apm.agent.appserver.log.dir.name=RRANIPER-X30W-J_7059334a4aae38768d0b9a45e1275ac1
+  com.oracle.apm.agent.data.upload.file=stdout
+  com.oracle.apm.agent.oci.collector.service="helidon-mp-user-login-poc"
+  com.oracle.apm.agent.resource.apm.version=1.5.2118
+  com.oracle.apm.agent.resource.appserver=true
+  com.oracle.apm.agent.resource.appserver.display.port=NoPort
+  com.oracle.apm.agent.resource.appserver.id=7059334a4aae38768d0b9a45e1275ac1
+  com.oracle.apm.agent.resource.appserver.ports=NoPort
+  com.oracle.apm.agent.resource.appserver.type=helidon
+  com.oracle.apm.agent.resource.display.name=RRANIPER-X30W-J_7059334a4aae38768d0b9a45e1275ac1
+  com.oracle.apm.agent.resource.host.address=192.168.0.105
+  com.oracle.apm.agent.resource.host.addresses=192.168.0.105
+  com.oracle.apm.agent.resource.host.names=RRANIPER-X30W-J,RRANIPER-X30W-J.in.oracle.com
+  com.oracle.apm.agent.resource.hostname=RRANIPER-X30W-J
+  com.oracle.apm.agent.resource.hostname.canonical=RRANIPER-X30W-J.in.oracle.com
+  com.oracle.apm.agent.resource.os.available.processors=8
+  com.oracle.apm.agent.resource.os.name=Windows 10
+  com.oracle.apm.agent.resource.os.version=10.0
+  com.oracle.apm.agent.resource.process.id=2724
+  com.oracle.apm.agent.resource.service.id=04e9a602fa6190e6ae0460a0655a8fb3
+  com.oracle.apm.agent.resource.service.name="helidon-mp-user-login-poc"
+  com.oracle.apm.agent.resource.vm.name=Java(TM) SE Runtime Environment
+  com.oracle.apm.agent.resource.vm.vendor=Oracle Corporation
+  com.oracle.apm.agent.resource.vm.version=11.0.13
+  com.oracle.apm.agent.resource.working.directory=C:\Users\rraniper\Documents\helidonpoc\helidon-user-login-poc-79
+ 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [0] AppserverType {P:0} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [1] AppserverId {P:0} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [2] ServiceName {P:0} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [3] ServiceInstanceId {P:0} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [4] DisplayName {P:0} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [5] ApmVersion {P:0} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [6] HostnameCanonical {P:100} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [7] HostAddress {P:101} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [8] AppserverPorts {P:106} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [9] OsName {P:210} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [10] OsVersion {P:211} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [11] VmName {P:212} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [12] VmVersion {P:213} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [13] Hostname {P:216} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [14] HostNames {P:217} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [15] WorkingDirectory {P:218} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [16] VmVendor {P:303} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [17] OsAvailableProcessors {P:304} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [18] HostAddresses {P:305} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [19] ProcessId {P:306} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [20] AppserverDisplayPort {P:400} reported, under resource limit [100] 
+0x1e<Thu May 26 18:55:43 IST 2022> INFO <04e9a602fa6190e6ae0460a0655a8fb3> [21] Appserver {P:2147483647} reported, under resource limit [100] 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJDBCActiveConnectionsHighCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJTATransactionHeuristicsTotalCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJTATransactionRolledBackTimeoutTotalCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJMSConnectionsHighCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJMSServersHighCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJVMHeapSizeCurrent] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJTATransactionAbandonedTotalCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJMSServersCurrentCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicThreadPoolCompletedRequestCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJMSServersTotalCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicThreadPoolExecuteThreadTotalCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJTATransactionCommittedTotalCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicServerOpenSocketsCurrentCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicServerState] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJDBCActiveConnectionsCurrentCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJMSConnectionsTotalCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicThreadPoolStuckCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicWebAppOpenSessionsCurrentCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJDBCActiveConnectionsAverageCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJVMHeapFreeCurrent] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJVMHeapFreePercent] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJVMHeapSizeMax] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJTATransactionRolledBackResourceTotalCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJMSConnectionsCurrentCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicThreadPoolQueueLength] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicThreadPoolPendingUserRequestCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicThreadPoolHoggingThreadCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJTATransactionRolledBackSystemTotalCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJTATransactionRolledBackAppTotalCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicThreadPoolExecuteThreadIdleCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicThreadPoolThroughput] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicThreadPoolStandbyCount] appeared not collectable. Collection of this metric is stopped 
+0x1e<Thu May 26 19:05:00 IST 2022> INFO <Metric> Metric [/WebLogic/WeblogicJTAActiveTransactionsTotalCount] appeared not collectable. Collection of this metric is stopped 
+0x66<Sun May 29 22:08:01 IST 2022> INFO <Config> Effective agent properties - Resource updated
+  com.oracle.apm.agent.appserver.log.dir.name=RRANIPER-X30W-J_7059334a4aae38768d0b9a45e1275ac1
+  com.oracle.apm.agent.data.upload.file=stdout
+  com.oracle.apm.agent.oci.collector.service="helidon-mp-user-login-poc"
+  com.oracle.apm.agent.resource.apm.version=1.5.2118
+  com.oracle.apm.agent.resource.appserver=true
+  com.oracle.apm.agent.resource.appserver.display.port=NoPort
+  com.oracle.apm.agent.resource.appserver.id=7059334a4aae38768d0b9a45e1275ac1
+  com.oracle.apm.agent.resource.appserver.ports=NoPort
+  com.oracle.apm.agent.resource.appserver.type=helidon
+  com.oracle.apm.agent.resource.display.name=RRANIPER-X30W-J_7059334a4aae38768d0b9a45e1275ac1
+  com.oracle.apm.agent.resource.host.address=127.0.0.1
+  com.oracle.apm.agent.resource.hostname=RRANIPER-X30W-J
+  com.oracle.apm.agent.resource.hostname.canonical=RRANIPER-X30W-J.in.oracle.com
+  com.oracle.apm.agent.resource.os.available.processors=8
+  com.oracle.apm.agent.resource.os.name=Windows 10
+  com.oracle.apm.agent.resource.os.version=10.0
+  com.oracle.apm.agent.resource.process.id=2724
+  com.oracle.apm.agent.resource.service.id=04e9a602fa6190e6ae0460a0655a8fb3
+  com.oracle.apm.agent.resource.service.name="helidon-mp-user-login-poc"
+  com.oracle.apm.agent.resource.vm.name=Java(TM) SE Runtime Environment
+  com.oracle.apm.agent.resource.vm.vendor=Oracle Corporation
+  com.oracle.apm.agent.resource.vm.version=11.0.13
+  com.oracle.apm.agent.resource.working.directory=C:\Users\rraniper\Documents\helidonpoc\helidon-user-login-poc-79
+ 

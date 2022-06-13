@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) 2018, 2021 Oracle and/or its affiliates.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.helidon.applications</groupId>
+        <artifactId>helidon-mp</artifactId>
+        <version>2.3.0</version>
+        <relativePath>../../../applications/mp/pom.xml</relativePath>
+    </parent>
+    <artifactId>helidon-mp-user-login-poc-79</artifactId>
+    <name>Helidon User Login POC</name>
+
+    <description>
+        Microprofile example with explicit bootstrapping (Server.create(Application.class).start())
+    </description>
+
+    <properties>
+        <mainClass>io.helidon.microprofile.poc.Main</mainClass>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.helidon.microprofile.bundles</groupId>
+            <artifactId>helidon-microprofile</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss</groupId>
+            <artifactId>jandex</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+		    <groupId>io.helidon.integrations.cdi</groupId>
+		    <artifactId>helidon-integrations-cdi-datasource-hikaricp</artifactId>
+		</dependency>
+		<dependency>
+            <groupId>io.helidon.media</groupId>
+            <artifactId>helidon-media-jsonp</artifactId>
+			<version>2.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc8-production</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>io.helidon.microprofile</groupId>
+            <artifactId>helidon-microprofile-cors</artifactId>
+        </dependency>
+        <dependency>
+		    <!-- general support for tracing -->
+		    <groupId>io.helidon.microprofile.tracing</groupId>
+		    <artifactId>helidon-microprofile-tracing</artifactId>
+		</dependency>
+         <!-- <dependency>
+            <groupId>io.helidon.tracing</groupId>
+            <artifactId>helidon-tracing-zipkin</artifactId>
+        </dependency> -->
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-libs</id>
+                    </execution>
+                </executions>
+            </plugin>
+            
+            <plugin>
+                <groupId>org.jboss.jandex</groupId>
+                <artifactId>jandex-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>make-index</id>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+				<groupId>com.google.cloud.tools</groupId>
+    			<artifactId>jib-maven-plugin</artifactId>
+    			<version>3.2.0</version>
+				<configuration>
+					 <to> 
+						<image>registry.hub.docker.com/rameshramrpd/helidon-user-login-poc-79</image>
+					 </to> 
+				</configuration> 
+			</plugin>
+        </plugins>
+    </build>
+</project>

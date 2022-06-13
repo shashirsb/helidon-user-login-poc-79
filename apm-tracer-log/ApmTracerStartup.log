@@ -1,0 +1,35 @@
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX> Determining MBean Server: 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX>   USE_JMX=[true] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX>   WAIT_FOR_MBEAN_SERVER=[false] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX>   JMX_INIT_TIMEOUT=[30000]ms 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX>   MBEAN_SERVER_CLASSNAME=[null] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <JMX> JMX MBeanServer is determined [com.sun.jmx.mbeanserver.JmxMBeanServer] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [DataQueue_Flush_Check] added with delay of [100 milliseconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup> Agent build properties: 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   build time=[2022-03-29T21:43:42Z] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   build host=[be9ca0a93921] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   build user=[root] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   build commit id=[712ddb14] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   build branch=[master] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup>   apm version=[1.5.2118] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [StatusManager_StatusReport] added with fixed rate of [60 seconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [MetricCollector_WebLogic] added with fixed rate of [60000 milliseconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Span> Metric [WebLogic] collection scheduled 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [MetricCollector_Platform] added with fixed rate of [60000 milliseconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Span> Metric [Platform] collection scheduled 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [MetricCollector_Tracer] added with fixed rate of [60000 milliseconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Span> Metric [Tracer] collection scheduled 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Resource> ResourceManager is starting 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Resource> ResourceManager is running 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Resource> ResourceCollector is starting 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [ResourceCollector_Discovery] added with delay of [60 seconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [ResourceCollector_Daily] added with delay of [86400 seconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Scheduler> Recurring schedule [ResourceCollector_Renew] added with delay of [1200000 milliseconds] 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Resource> ResourceCollector is running 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Sampler> Initializing sampling config 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Sampler> Loading sampling config file 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Sampler> No sampling config file or no [null] service config found in sampling config file 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Sampler> No sampling config file or rule properties specified 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Sampler> Effective sampling rule: No sampling config 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Config> The propagation type of the Oracle APM Tracer is set to: B3 
+0x1<Thu May 26 18:55:34 IST 2022> INFO <Startup> Tracer successfully initialized 
